@@ -1,0 +1,16 @@
+.Item {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 0 40px;
+}
+
+.Item:hover {
+    background-color: rgba(70, 63, 63, 0.808);
+}
+
+.Active-Item {
+    text-decoration: none;
+    color: rgb(77, 241, 85);
+    
+}

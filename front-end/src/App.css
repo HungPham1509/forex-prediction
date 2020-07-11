@@ -1,0 +1,19 @@
+.App {
+  
+}
+
+.App-header {
+  background-image: url('./themes/Forex_edited.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #282c34;
+  height: 100vh;
+  
+}
+
+.Title {
+  color: white;
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+}

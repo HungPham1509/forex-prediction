@@ -1,0 +1,78 @@
+.Forex {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.Table-Container {
+    display: flex;
+}
+
+.Data-Table {
+    margin-top: 10px;
+    width: 40%;
+    height: 680px;
+    overflow-y: scroll;
+}
+
+.Predicted-Table {
+    margin-top: 10px;
+    margin-left: 200px;
+    width: 30%;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.Chart {
+    width: 700px;
+    height: 360px;
+    position: absolute;
+    bottom: 35px;
+    right: 15%;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+table {
+    width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+td, th {
+    border: none;
+    padding: 8px;
+}
+
+
+tr:nth-child(even){background-color: #f2f2f2;}
+tr:nth-child(odd){background-color: #f2f2f2;}
+tr:hover {
+    background: #C9FFBF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFAFBD, #C9FFBF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: #52c234;
+    text-align: center; 
+    color: white;
+    font-weight: 500;
+    border: 1px 
+}
+
+td {
+    color: #303641;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+
+
+
+
+
